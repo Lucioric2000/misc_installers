@@ -1,0 +1,2 @@
+useradd lucioric -ms /bin/bash -G sudo
+passwd lucioric
