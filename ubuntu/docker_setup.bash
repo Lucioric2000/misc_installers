@@ -14,4 +14,7 @@ echo \
 
 sudo apt update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
-sudo service docker start
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
