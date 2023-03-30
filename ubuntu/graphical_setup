@@ -1,0 +1,5 @@
+sudo apt update && sudo apt upgrade
+sudo apt install x11-apps
+#sudo apt install slim
+sudo apt install ubuntu-desktop #gdm3
+sudo reboot
